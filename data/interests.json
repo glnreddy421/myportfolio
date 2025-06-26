@@ -1,0 +1,44 @@
+{
+    "interests": [
+        {
+            "category": "Mobile App Development",
+            "icon": "fas fa-mobile-alt",
+            "benefit": "Bringing your app ideas to life",
+            "items": [
+                "Can help you develop custom mobile applications for your business needs",
+                "Experience in both iOS and Android development for wider reach",
+                "Focus on user-friendly interfaces and smooth performance"
+            ]
+        },
+        {
+            "category": "Gaming & Problem Solving",
+            "icon": "fas fa-gamepad",
+            "benefit": "Strategic thinking for complex challenges",
+            "items": [
+                "Apply competitive gaming strategies to solve business problems efficiently",
+                "Table tennis player - brings quick decision-making skills to project management",
+                "Use gaming principles to make technical solutions more engaging for users"
+            ]
+        },
+        {
+            "category": "Team Building & Collaboration",
+            "icon": "fas fa-users",
+            "benefit": "Building strong, effective teams",
+            "items": [
+                "Host team-building cooking sessions for better collaboration",
+                "Organize gaming tournaments for team bonding",
+                "Create inclusive environments where everyone can contribute"
+            ]
+        },
+        {
+            "category": "Continuous Innovation",
+            "icon": "fas fa-lightbulb",
+            "benefit": "Staying ahead of tech trends",
+            "items": [
+                "Regular participation in tech conferences to bring you latest solutions",
+                "Active in developer communities to access wider knowledge base",
+                "Constantly learning new technologies to better serve your needs"
+            ]
+        }
+    ]
+} 

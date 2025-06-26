@@ -1,0 +1,113 @@
+{
+    "experiences": [
+        {
+            "company": "Qualtrics",
+            "position": "Senior Systems Engineer",
+            "duration": "Oct 2021 – Present",
+            "responsibilities": [
+                "Architected and implemented comprehensive multi-cloud infrastructure solutions across AWS, GCP, and IBM Cloud platforms, ensuring seamless integration and optimal performance",
+                "Designed and maintained advanced CI/CD pipelines utilizing Jenkins and GitLab CI, with Spinnaker orchestrating deployments across Nomad and Kubernetes environments",
+                "Led the development and maintenance of Golden AMI pipeline, implementing automated security patches, compliance checks, and standardized configurations across the organization",
+                "Managed enterprise-wide vulnerability management program using automated scanning and patching workflows, ensuring consistent security standards across all environments",
+                "Implemented and maintained HashiCorp Vault for secrets management, including dynamic credentials, encryption as a service, and secure key management across multiple data centers",
+                "Orchestrated configuration management using Ansible, establishing standardized deployments and automated system configurations across the infrastructure",
+                "Developed Infrastructure as Code solutions using Terraform and CloudFormation, enabling consistent and repeatable infrastructure deployments",
+                "Managed multi-region Kubernetes (EKS) clusters, implementing advanced deployment strategies and ensuring high availability across global infrastructure",
+                "Established comprehensive monitoring and observability using ELK Stack, Grafana, Prometheus, and AWS Synthetic Canaries with integrated sanity pipelines",
+                "Implemented automated disaster recovery procedures and backup strategies across multiple regions and cloud providers",
+                "Provided senior-level on-call support for critical infrastructure, leading incident response and performing detailed root cause analysis",
+                "Designed and implemented seamless tracing systems for distributed applications, enabling efficient troubleshooting and performance optimization",
+                "Collaborated with security teams to implement and maintain compliance controls, ensuring adherence to industry standards and best practices",
+                "Led technical initiatives for infrastructure modernization, including containerization strategies and microservices architecture implementation"
+            ]
+        },
+        {
+            "company": "Clarabridge",
+            "position": "Cloud Engineer",
+            "duration": "Feb 2021 – Sep 2021",
+            "responsibilities": [
+                "Architected and deployed mission-critical infrastructure across AWS and GCP, implementing robust high-availability solutions and disaster recovery strategies",
+                "Developed and maintained Infrastructure as Code using Terraform and CloudFormation, integrating with Jenkins pipelines for automated infrastructure provisioning",
+                "Implemented comprehensive security controls and compliance measures across cloud environments, collaborating with InfoSec teams for threat detection and mitigation",
+                "Designed and implemented automated server provisioning workflows using Golden AMIs, incorporating security hardening and compliance requirements",
+                "Established automated vulnerability management system, implementing regular scanning and patching cycles across all environments",
+                "Created and maintained CI/CD pipelines using Jenkins and Ansible, enabling automated application deployments and configuration management",
+                "Implemented HashiCorp Vault for secrets management and encryption, securing sensitive data and credentials across multiple environments",
+                "Designed and deployed multi-region EKS clusters, implementing advanced networking and security configurations for containerized applications",
+                "Established comprehensive monitoring solutions using Elasticsearch and CloudWatch, creating custom dashboards and alerting mechanisms",
+                "Developed Lambda functions for infrastructure automation, including automated backup procedures and system health checks",
+                "Implemented proactive resource optimization strategies, resulting in significant cost savings across cloud platforms",
+                "Created automated disaster recovery procedures and backup strategies for critical applications and data",
+                "Led the implementation of infrastructure security best practices, including network segmentation and access control policies",
+                "Collaborated with global teams to maintain 24/7 infrastructure availability, providing on-call support and incident management",
+                "Established standardized deployment processes using Infrastructure as Code, ensuring consistency across all environments"
+            ]
+        },
+        {
+            "company": "Neustar Inc.",
+            "position": "Senior Systems Engineer",
+            "duration": "Mar 2018 – Feb 2021",
+            "responsibilities": [
+                "Led large-scale infrastructure modernization initiatives, successfully migrating legacy systems to cloud platforms while ensuring business continuity",
+                "Designed and implemented comprehensive CI/CD pipelines using Jenkins, significantly improving deployment efficiency and reliability",
+                "Orchestrated infrastructure automation using Ansible and Terraform, establishing consistent deployment patterns across multiple environments",
+                "Implemented and maintained Kubernetes clusters for containerized applications, ensuring scalability and high availability",
+                "Developed and maintained Python and Bash automation scripts for routine operations, improving operational efficiency",
+                "Established robust monitoring and alerting systems using ELK Stack and Prometheus, enabling proactive issue resolution",
+                "Managed enterprise-wide backup and disaster recovery systems, ensuring data integrity and system resilience",
+                "Implemented security best practices and compliance measures across infrastructure components",
+                "Created and maintained Golden AMI pipeline for standardized server deployments with security configurations",
+                "Led vulnerability management initiatives, implementing automated scanning and remediation processes",
+                "Designed and implemented high-availability solutions for critical applications across multiple data centers",
+                "Collaborated with development teams to optimize application performance and infrastructure utilization",
+                "Managed database operations including MySQL, Oracle, and PostgreSQL, ensuring high availability and performance",
+                "Implemented infrastructure security controls and access management policies across cloud environments",
+                "Led technical documentation initiatives, creating comprehensive runbooks and operational procedures"
+            ]
+        },
+        {
+            "company": "Epic Systems",
+            "position": "DevOps Engineer Jr",
+            "duration": "Aug 2017 – Feb 2018",
+            "responsibilities": [
+                "Developed and maintained CI/CD pipelines using Jenkins, streamlining application deployment processes",
+                "Implemented automated testing frameworks and deployment verification procedures",
+                "Collaborated in designing and implementing monitoring solutions using Nagios and ELK Stack",
+                "Assisted in container orchestration using Docker and Kubernetes for development environments",
+                "Contributed to infrastructure automation using Ansible and Shell scripting",
+                "Participated in implementing version control best practices and Git workflow optimization",
+                "Assisted in database administration tasks for MySQL and PostgreSQL databases",
+                "Helped establish logging and monitoring standards for application deployments",
+                "Supported incident response and troubleshooting for production environments",
+                "Contributed to documentation of deployment procedures and operational runbooks",
+                "Assisted in implementing security patches and system updates across development environments",
+                "Collaborated with development teams to improve build and deployment processes",
+                "Participated in on-call rotations providing production support and issue resolution",
+                "Helped maintain configuration management systems ensuring environment consistency",
+                "Contributed to capacity planning and resource optimization initiatives"
+            ]
+        },
+        {
+            "company": "GNR Systems Inc.",
+            "position": "Software Engineer",
+            "duration": "Apr 2017 – Aug 2017",
+            "responsibilities": [
+                "Designed and implemented automated build pipelines and CI/CD workflows using Jenkins, incorporating comprehensive test automation frameworks",
+                "Established and maintained version control practices using Git, ensuring code quality and collaboration efficiency",
+                "Orchestrated cross-functional collaboration between Architecture, Development, Test, Security, and IT Services teams",
+                "Configured and managed RedHat Enterprise Linux Servers for data storage and application hosting",
+                "Implemented automated Java/J2EE application deployment processes in Agile CI environment using Apache Tomcat",
+                "Developed and maintained Ansible playbooks for automated patch management and deployment across Production and Customer environments",
+                "Customized UNIX server environments and services, collaborating with application teams for optimal configuration",
+                "Created shell scripts and automation tools for web server management and Apache configuration",
+                "Utilized Maven and ANT for build automation and dependency management in Java applications",
+                "Implemented Python scripts for process automation and system administration tasks",
+                "Managed project tracking and issue resolution using JIRA in an Agile environment",
+                "Established standardized deployment procedures ensuring consistency across environments",
+                "Developed comprehensive documentation for deployment processes and system configurations",
+                "Implemented monitoring and logging solutions for application and server health tracking",
+                "Collaborated in security implementation and compliance measures across server environments"
+            ]
+        }
+    ]
+} 

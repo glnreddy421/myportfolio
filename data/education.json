@@ -1,0 +1,18 @@
+{
+    "education": [
+        {
+            "degree": "Master's Degree",
+            "field": "Computer Science",
+            "institution": "University of Houston-Clear Lake",
+            "location": "Texas, United States",
+            "duration": "Present"
+        },
+        {
+            "degree": "Bachelor's Degree",
+            "field": "Computer Science and Engineering",
+            "institution": "Jawaharlal Nehru Technological University",
+            "location": "Hyderabad, India",
+            "duration": "Aug 2015 - Dec 2016"
+        }
+    ]
+} 
