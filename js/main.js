@@ -7,7 +7,7 @@ const getBasePath = () => {
 // Load and render about section
 async function loadAbout() {
     try {
-        const response = await fetch(getBasePath() + 'data/about.json');
+        const response = await fetch('./data/about.json');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
         
@@ -27,7 +27,7 @@ async function loadAbout() {
 // Load and render skills section
 async function loadSkills() {
     try {
-        const response = await fetch(getBasePath() + 'data/skills.json');
+        const response = await fetch('./data/skills.json');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
         
