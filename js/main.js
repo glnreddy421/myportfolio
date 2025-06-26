@@ -1,37 +1,55 @@
+// Get the base URL for the site
+const getBasePath = () => {
+    const path = window.location.pathname;
+    return path.endsWith('/') ? path : path.substring(0, path.lastIndexOf('/') + 1);
+};
+
 // Load and render about section
 async function loadAbout() {
-    const response = await fetch('data/about.json');
-    const data = await response.json();
-    
-    document.querySelector('.logo h1').textContent = data.name;
-    document.querySelector('.logo .subtitle').textContent = data.title;
-    
-    const aboutContent = document.querySelector('.about-content');
-    aboutContent.innerHTML = data.description
-        .map(paragraph => `<p class="description">${paragraph}</p>`)
-        .join('');
+    try {
+        const response = await fetch(getBasePath() + 'data/about.json');
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const data = await response.json();
+        
+        document.querySelector('.logo h1').textContent = data.name;
+        document.querySelector('.logo .subtitle').textContent = data.title;
+        
+        const aboutContent = document.querySelector('.about-content');
+        aboutContent.innerHTML = data.description
+            .map(paragraph => `<p class="description">${paragraph}</p>`)
+            .join('');
+    } catch (error) {
+        console.error('Error loading about section:', error);
+        document.querySelector('.about-content').innerHTML = '<p>Error loading content. Please check console for details.</p>';
+    }
 }
 
 // Load and render skills section
 async function loadSkills() {
-    const response = await fetch('data/skills.json');
-    const data = await response.json();
-    
-    const skillsContainer = document.querySelector('.skills-container');
-    skillsContainer.innerHTML = data.skillCategories
-        .map(category => `
-            <div class="skill-category">
-                <h3>${category.name}</h3>
-                <div class="skill-tags">
-                    ${category.skills.map(skill => `
-                        <span class="skill-tag">
-                            <i class="${skill.icon}"></i>
-                            ${skill.name}
-                        </span>
-                    `).join('')}
+    try {
+        const response = await fetch(getBasePath() + 'data/skills.json');
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const data = await response.json();
+        
+        const skillsContainer = document.querySelector('.skills-container');
+        skillsContainer.innerHTML = data.skillCategories
+            .map(category => `
+                <div class="skill-category">
+                    <h3>${category.name}</h3>
+                    <div class="skill-tags">
+                        ${category.skills.map(skill => `
+                            <span class="skill-tag">
+                                <i class="${skill.icon}"></i>
+                                ${skill.name}
+                            </span>
+                        `).join('')}
+                    </div>
                 </div>
-            </div>
-        `).join('');
+            `).join('');
+    } catch (error) {
+        console.error('Error loading skills section:', error);
+        document.querySelector('.skills-container').innerHTML = '<p>Error loading content. Please check console for details.</p>';
+    }
 }
 
 // Load and render experience section
@@ -158,6 +176,10 @@ async function loadContact() {
 // Initialize all sections
 async function initializePortfolio() {
     try {
+        // Add console log to help debug
+        console.log('Base path:', getBasePath());
+        console.log('Full URL for about.json:', getBasePath() + 'data/about.json');
+        
         await Promise.all([
             loadAbout(),
             loadSkills(),
