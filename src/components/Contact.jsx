@@ -1,4 +1,5 @@
 import { FileText, Mail, MapPin, Phone } from 'lucide-react';
+import { publicUrl } from '../lib/publicUrl.js';
 import SectionHeading from './SectionHeading.jsx';
 
 export default function Contact({ contact }) {
@@ -32,7 +33,12 @@ export default function Contact({ contact }) {
               <i className="fab fa-linkedin" aria-hidden="true" />
               LinkedIn
             </a>
-            <a className="contact-link" href={contact.resume} target="_blank" rel="noreferrer">
+            <a
+              className="contact-link"
+              href={publicUrl(contact.resume)}
+              target="_blank"
+              rel="noreferrer"
+            >
               <FileText size={17} strokeWidth={2.25} aria-hidden="true" />
               Resume (PDF)
             </a>

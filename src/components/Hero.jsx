@@ -1,4 +1,5 @@
 import { Boxes, Download, ExternalLink, MapPin, Server, Wrench } from 'lucide-react';
+import { publicUrl } from '../lib/publicUrl.js';
 
 export default function Hero({ about, contact }) {
   return (
@@ -15,7 +16,12 @@ export default function Hero({ about, contact }) {
             infrastructure, security, and automation for teams that cannot afford downtime.
           </p>
           <div className="hero-actions">
-            <a className="btn btn-primary" href={contact.resume} target="_blank" rel="noreferrer">
+            <a
+              className="btn btn-primary"
+              href={publicUrl(contact.resume)}
+              target="_blank"
+              rel="noreferrer"
+            >
               <Download size={16} strokeWidth={2.25} aria-hidden="true" />
               Resume
             </a>
@@ -31,7 +37,7 @@ export default function Hero({ about, contact }) {
         </div>
         <div className="hero-visual">
           <div className="profile-frame">
-            <img src="/images/profile.jpg" alt={about.name} />
+            <img src={publicUrl('images/profile.jpg')} alt={about.name} />
             <div className="profile-badge">
               <Wrench size={16} strokeWidth={2.25} aria-hidden="true" />
               <span>
