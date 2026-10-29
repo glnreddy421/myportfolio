@@ -1,0 +1,78 @@
+{
+    "skillCategories": [
+        {
+            "name": "Cloud Security",
+            "skills": [
+                { "name": "Container security", "icon": "fas fa-shield-alt" },
+                { "name": "Image signing & scanning", "icon": "fas fa-file-signature" },
+                { "name": "Admission controllers", "icon": "fas fa-door-closed" },
+                { "name": "Istio (mTLS)", "icon": "devicon-kubernetes-plain" },
+                { "name": "Vault", "icon": "fas fa-key" },
+                { "name": "IAM", "icon": "devicon-amazonwebservices-original" }
+            ]
+        },
+        {
+            "name": "Kubernetes",
+            "skills": [
+                { "name": "AWS EKS", "icon": "devicon-kubernetes-plain" },
+                { "name": "Docker", "icon": "devicon-docker-plain" },
+                { "name": "Helm", "icon": "fas fa-dharmachakra" },
+                { "name": "ArgoCD (GitOps)", "icon": "fas fa-code-branch" },
+                { "name": "client-go", "icon": "devicon-go-original" },
+                { "name": "OPA", "icon": "fas fa-balance-scale" },
+                { "name": "Kyverno", "icon": "fas fa-gavel" },
+                { "name": "Nomad", "icon": "fas fa-server" }
+            ]
+        },
+        {
+            "name": "Networking & Observability",
+            "skills": [
+                { "name": "eBPF tracing", "icon": "fas fa-project-diagram" },
+                { "name": "Cilium", "icon": "fas fa-network-wired" },
+                { "name": "Hubble", "icon": "fas fa-eye" },
+                { "name": "Prometheus", "icon": "devicon-prometheus-original" },
+                { "name": "Grafana", "icon": "devicon-grafana-original" },
+                { "name": "Elastic Stack (ELK)", "icon": "devicon-elasticsearch-plain" },
+                { "name": "Splunk", "icon": "devicon-splunk-plain" },
+                { "name": "CloudWatch", "icon": "devicon-amazonwebservices-original" }
+            ]
+        },
+        {
+            "name": "Infrastructure",
+            "skills": [
+                { "name": "Terraform", "icon": "devicon-terraform-plain" },
+                { "name": "AWS CDK", "icon": "devicon-amazonwebservices-original" },
+                { "name": "CloudFormation", "icon": "devicon-amazonwebservices-original" },
+                { "name": "Jenkins", "icon": "devicon-jenkins-plain" },
+                { "name": "GitLab CI", "icon": "devicon-gitlab-plain" },
+                { "name": "Ansible", "icon": "devicon-ansible-plain" },
+                { "name": "Spinnaker", "icon": "fas fa-ship" }
+            ]
+        },
+        {
+            "name": "Cloud",
+            "skills": [
+                { "name": "AWS", "icon": "devicon-amazonwebservices-original" },
+                { "name": "EKS", "icon": "devicon-kubernetes-plain" },
+                { "name": "EC2", "icon": "devicon-amazonwebservices-original" },
+                { "name": "Lambda", "icon": "devicon-amazonwebservices-original" },
+                { "name": "GuardDuty", "icon": "fas fa-user-shield" },
+                { "name": "GCP", "icon": "devicon-googlecloud-plain" },
+                { "name": "IBM Cloud", "icon": "devicon-ibm-plain" }
+            ]
+        },
+        {
+            "name": "Programming & Data",
+            "skills": [
+                { "name": "Go", "icon": "devicon-go-original" },
+                { "name": "Python", "icon": "devicon-python-plain" },
+                { "name": "Bash", "icon": "devicon-bash-plain" },
+                { "name": "HCL", "icon": "devicon-terraform-plain" },
+                { "name": "React", "icon": "devicon-react-original" },
+                { "name": "PostgreSQL", "icon": "devicon-postgresql-plain" },
+                { "name": "DynamoDB", "icon": "devicon-amazonwebservices-original" },
+                { "name": "Firestore", "icon": "devicon-firebase-plain" }
+            ]
+        }
+    ]
+}

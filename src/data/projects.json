@@ -1,0 +1,17 @@
+{
+    "projects": [
+        {
+            "name": "klew.dev",
+            "tagline": "Kubernetes incident investigation—with MCP for coding agents",
+            "stack": "Wails v2 · Go · React · Vite · client-go · MCP",
+            "website": "https://klew.dev",
+            "highlights": [
+                "Open-source (Apache 2.0) macOS desktop app that brings Kubernetes workloads, events, logs, and resource state into one workspace for on-call troubleshooting.",
+                "Connects to local or remote clusters through kubeconfig and the Kubernetes API (client-go); all data stays local with no SaaS backend.",
+                "MCP server so agents in Cursor, Claude, and other MCP clients can use klew’s investigation capabilities with cluster context on your machine.",
+                "Live cluster watches and periodic snapshots, with Drain3 grouping similar log and event lines so related failures show up together.",
+                "Investigation engine clusters repeated log patterns into a view of what failed and what else it affected."
+            ]
+        }
+    ]
+}

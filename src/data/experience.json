@@ -1,0 +1,66 @@
+{
+    "experiences": [
+        {
+            "company": "Qualtrics",
+            "position": "Sr. Systems Engineer | DevSecOps Security · Reston, Virginia",
+            "duration": "Oct 2021 – Present",
+            "responsibilities": [
+                "Run multi-region AWS EKS and Nomad clusters that host Qualtrics' customer-facing applications.",
+                "Keep applications within SLA through production monitoring, 24/7 on-call support, and incident response.",
+                "Managed multi-region AWS EKS and Nomad clusters using Cilium network policies and OPA/Kyverno policy enforcement to meet SLAs.",
+                "Rolled out Istio mTLS for service-to-service traffic with minimal application changes.",
+                "Set up eBPF-based observability with Cilium and Hubble for flow-level visibility and faster network troubleshooting without sidecars.",
+                "Built ArgoCD GitOps workflows for versioned, auditable, and automated deployments.",
+                "Automated environment provisioning with Terraform, Ansible, Python, and AWS CDK, cutting setup time and preventing manual drift.",
+                "Handled production monitoring and incident response using Prometheus, Grafana, and Elastic Stack; improved MTTR with automated runbooks and smarter alerts.",
+                "Helped integrate LLM and ML workflows (LangChain) into internal tools and microservices to lighten operational load.",
+                "Implemented container supply-chain security with image signing, publishing, and Wiz scanning in CI/CD, enforcing Kyverno admission policies so only compliant images reach production."
+            ]
+        },
+        {
+            "company": "Clarabridge",
+            "position": "Cloud Engineer · Reston, Virginia",
+            "duration": "Feb 2021 – Sep 2021",
+            "responsibilities": [
+                "Provisioned production infrastructure as code with Terraform and CloudFormation across AWS, GCP, and IBM Cloud.",
+                "Managed server configuration, patching, and upgrades with Ansible to keep production environments consistent and up to date.",
+                "Managed centralized Jenkins and its agents for CI/CD pipelines that automated infrastructure provisioning, patching, and upgrades.",
+                "Managed AWS Kubernetes deployments for multi-region availability and SLA compliance.",
+                "Developed AWS Lambda automation to streamline operational tasks and accelerate deployments.",
+                "Collaborated with security teams to strengthen cloud infrastructure using AWS GuardDuty, VPC flow log analysis, and IAM least-privilege policies."
+            ]
+        },
+        {
+            "company": "Neustar Inc.",
+            "position": "Senior Systems Engineer · Sterling, Virginia",
+            "duration": "Mar 2018 – Feb 2021",
+            "responsibilities": [
+                "Supported customer-facing CNAM (caller name) services, keeping applications available for millions of end users across public cloud and global data centers.",
+                "Moved configuration management from Chef to Ansible by converting Chef recipes into Ansible roles, improving maintainability and secrets handling.",
+                "Automated provisioning with Terraform and built Jenkins CI/CD pipelines that deploy in a single step and lower release risk.",
+                "Migrated on-premises infrastructure to AWS and worked on high-volume data streams into ELK and Amazon Kinesis for logging and alerting.",
+                "Designed Jenkins CI/CD pipelines integrating Terraform and CloudFormation, enabling single-step deployments and reducing release rollback rate."
+            ]
+        },
+        {
+            "company": "Epic Systems",
+            "position": "DevOps Engineer · Herndon, Virginia",
+            "duration": "Aug 2017 – Feb 2018",
+            "responsibilities": [
+                "Designed application environments and release management procedures, and provided production support.",
+                "Wrote Ansible playbooks to provision development servers.",
+                "Automated AWS infrastructure (EC2, IAM, VPC, EBS, CloudWatch, CloudTrail, Auto Scaling, S3) with Terraform and integrated Terraform with Jenkins to run pipeline jobs automatically."
+            ]
+        },
+        {
+            "company": "GNR Systems Inc.",
+            "position": "Software Engineer · Bloomington, Illinois",
+            "duration": "Apr 2017 – Aug 2017",
+            "responsibilities": [
+                "Automated build, continuous integration, and continuous deployment pipelines with Git and Jenkins.",
+                "Implemented patch installation and deployments to production and customer environments with Ansible.",
+                "Configured RHEL and UNIX servers, including a data storage server, and wrote UNIX scripts to automate web tasks with Apache."
+            ]
+        }
+    ]
+}

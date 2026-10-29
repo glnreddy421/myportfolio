@@ -1,238 +1,78 @@
 {
     "skillCategories": [
         {
-            "name": "Operating Systems",
+            "name": "Cloud Security",
             "skills": [
-                {
-                    "name": "Linux (Red Hat 4.x-7.x)",
-                    "icon": "devicon-linux-plain"
-                },
-                {
-                    "name": "Unix",
-                    "icon": "devicon-unix-original"
-                }
+                { "name": "Container security", "icon": "fas fa-shield-alt" },
+                { "name": "Image signing & scanning", "icon": "fas fa-file-signature" },
+                { "name": "Admission controllers", "icon": "fas fa-door-closed" },
+                { "name": "Istio (mTLS)", "icon": "devicon-kubernetes-plain" },
+                { "name": "Vault", "icon": "fas fa-key" },
+                { "name": "IAM", "icon": "devicon-amazonwebservices-original" }
             ]
         },
         {
-            "name": "Version Control Tools",
+            "name": "Kubernetes",
             "skills": [
-                {
-                    "name": "Bitbucket",
-                    "icon": "devicon-bitbucket-original"
-                },
-                {
-                    "name": "SVN",
-                    "icon": "devicon-subversion-original"
-                },
-                {
-                    "name": "Git",
-                    "icon": "devicon-git-plain"
-                }
+                { "name": "AWS EKS", "icon": "devicon-kubernetes-plain" },
+                { "name": "Docker", "icon": "devicon-docker-plain" },
+                { "name": "Helm", "icon": "fas fa-dharmachakra" },
+                { "name": "ArgoCD (GitOps)", "icon": "fas fa-code-branch" },
+                { "name": "client-go", "icon": "devicon-go-original" },
+                { "name": "OPA", "icon": "fas fa-balance-scale" },
+                { "name": "Kyverno", "icon": "fas fa-gavel" },
+                { "name": "Nomad", "icon": "fas fa-server" }
             ]
         },
         {
-            "name": "Languages",
+            "name": "Networking & Observability",
             "skills": [
-                {
-                    "name": "Bash",
-                    "icon": "devicon-bash-plain"
-                },
-                {
-                    "name": "Python",
-                    "icon": "devicon-python-plain"
-                },
-                {
-                    "name": "C++",
-                    "icon": "devicon-cplusplus-plain"
-                },
-                {
-                    "name": "Java",
-                    "icon": "devicon-java-plain"
-                },
-                {
-                    "name": "HCL",
-                    "icon": "devicon-terraform-plain"
-                },
-                {
-                    "name": "Go",
-                    "icon": "devicon-go-original-wordmark"
-                }
+                { "name": "eBPF tracing", "icon": "fas fa-project-diagram" },
+                { "name": "Cilium", "icon": "fas fa-network-wired" },
+                { "name": "Hubble", "icon": "fas fa-eye" },
+                { "name": "Prometheus", "icon": "devicon-prometheus-original" },
+                { "name": "Grafana", "icon": "devicon-grafana-original" },
+                { "name": "Elastic Stack (ELK)", "icon": "devicon-elasticsearch-plain" },
+                { "name": "Splunk", "icon": "devicon-splunk-plain" },
+                { "name": "CloudWatch", "icon": "devicon-amazonwebservices-original" }
             ]
         },
         {
-            "name": "Databases",
+            "name": "Infrastructure",
             "skills": [
-                {
-                    "name": "MySQL",
-                    "icon": "devicon-mysql-plain"
-                },
-                {
-                    "name": "RDS",
-                    "icon": "devicon-amazonwebservices-original"
-                },
-                {
-                    "name": "Realm",
-                    "icon": "devicon-mongodb-plain"
-                },
-                {
-                    "name": "Hive",
-                    "icon": "devicon-apache-plain"
-                },
-                {
-                    "name": "Firestore",
-                    "icon": "devicon-firebase-plain"
-                },
-                {
-                    "name": "Oracle",
-                    "icon": "devicon-oracle-original"
-                },
-                {
-                    "name": "DynamoDB",
-                    "icon": "devicon-amazonwebservices-original"
-                }
-            ]
-        },
-        {
-            "name": "Application Servers",
-            "skills": [
-                {
-                    "name": "WebLogic",
-                    "icon": "devicon-oracle-original"
-                },
-                {
-                    "name": "WebSphere",
-                    "icon": "devicon-ibm-plain"
-                },
-                {
-                    "name": "Apache Tomcat",
-                    "icon": "devicon-tomcat-line"
-                },
-                {
-                    "name": "JBoss",
-                    "icon": "devicon-redhat-plain"
-                }
-            ]
-        },
-        {
-            "name": "Tools",
-            "skills": [
-                {
-                    "name": "Ant",
-                    "icon": "devicon-apache-plain"
-                },
-                {
-                    "name": "Maven",
-                    "icon": "devicon-maven-plain"
-                },
-                {
-                    "name": "Jenkins",
-                    "icon": "devicon-jenkins-plain"
-                },
-                {
-                    "name": "Chef",
-                    "icon": "devicon-chef-plain"
-                },
-                {
-                    "name": "Ansible",
-                    "icon": "devicon-ansible-plain"
-                },
-                {
-                    "name": "Nexus",
-                    "icon": "devicon-gradle-plain"
-                },
-                {
-                    "name": "Artifactory",
-                    "icon": "devicon-jfrog-plain"
-                },
-                {
-                    "name": "Docker",
-                    "icon": "devicon-docker-plain"
-                },
-                {
-                    "name": "Kubernetes",
-                    "icon": "devicon-kubernetes-plain"
-                },
-                {
-                    "name": "ELK",
-                    "icon": "devicon-elasticsearch-plain"
-                },
-                {
-                    "name": "Splunk",
-                    "icon": "devicon-splunk-plain"
-                }
-            ]
-        },
-        {
-            "name": "Bug Tracking Tools",
-            "skills": [
-                {
-                    "name": "JIRA",
-                    "icon": "devicon-jira-plain"
-                },
-                {
-                    "name": "Remedy",
-                    "icon": "fas fa-bug"
-                }
+                { "name": "Terraform", "icon": "devicon-terraform-plain" },
+                { "name": "AWS CDK", "icon": "devicon-amazonwebservices-original" },
+                { "name": "CloudFormation", "icon": "devicon-amazonwebservices-original" },
+                { "name": "Jenkins", "icon": "devicon-jenkins-plain" },
+                { "name": "GitLab CI", "icon": "devicon-gitlab-plain" },
+                { "name": "Ansible", "icon": "devicon-ansible-plain" },
+                { "name": "Spinnaker", "icon": "fas fa-ship" }
             ]
         },
         {
             "name": "Cloud",
             "skills": [
-                {
-                    "name": "AWS",
-                    "icon": "devicon-amazonwebservices-original"
-                },
-                {
-                    "name": "GCP",
-                    "icon": "devicon-googlecloud-plain"
-                },
-                {
-                    "name": "IBM",
-                    "icon": "devicon-ibm-plain"
-                }
+                { "name": "AWS", "icon": "devicon-amazonwebservices-original" },
+                { "name": "EKS", "icon": "devicon-kubernetes-plain" },
+                { "name": "EC2", "icon": "devicon-amazonwebservices-original" },
+                { "name": "Lambda", "icon": "devicon-amazonwebservices-original" },
+                { "name": "GuardDuty", "icon": "fas fa-user-shield" },
+                { "name": "GCP", "icon": "devicon-googlecloud-plain" },
+                { "name": "IBM Cloud", "icon": "devicon-ibm-plain" }
             ]
         },
         {
-            "name": "Automation Technologies",
+            "name": "Programming & Data",
             "skills": [
-                {
-                    "name": "Terraform",
-                    "icon": "devicon-terraform-plain"
-                },
-                {
-                    "name": "CloudFormation",
-                    "icon": "devicon-amazonwebservices-original"
-                },
-                {
-                    "name": "Jenkins",
-                    "icon": "devicon-jenkins-plain"
-                },
-                {
-                    "name": "Ansible",
-                    "icon": "devicon-ansible-plain"
-                }
-            ]
-        },
-        {
-            "name": "Monitoring Tools",
-            "skills": [
-                {
-                    "name": "AWS ElasticSearch",
-                    "icon": "devicon-elasticsearch-plain"
-                },
-                {
-                    "name": "Splunk",
-                    "icon": "devicon-splunk-plain"
-                },
-                {
-                    "name": "New Relic",
-                    "icon": "devicon-newrelic-plain"
-                },
-                {
-                    "name": "CloudWatch",
-                    "icon": "devicon-amazonwebservices-original"
-                }
+                { "name": "Go", "icon": "devicon-go-original" },
+                { "name": "Python", "icon": "devicon-python-plain" },
+                { "name": "Bash", "icon": "devicon-bash-plain" },
+                { "name": "HCL", "icon": "devicon-terraform-plain" },
+                { "name": "React", "icon": "devicon-react-original" },
+                { "name": "PostgreSQL", "icon": "devicon-postgresql-plain" },
+                { "name": "DynamoDB", "icon": "devicon-amazonwebservices-original" },
+                { "name": "Firestore", "icon": "devicon-firebase-plain" }
             ]
         }
     ]
-} 
+}

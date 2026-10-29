@@ -1,0 +1,31 @@
+{
+    "name": "Laxmi Narasimha Reddy Gumreddy",
+    "title": "Qualtrics · Sr. Systems Engineer | DevSecOps Security",
+    "focusAreas": [
+        "Cloud-native platforms",
+        "DevSecOps & supply chain",
+        "Kubernetes at scale",
+        "eBPF observability",
+        "GitOps automation"
+    ],
+    "description": [
+        "I’m a Sr. Systems Engineer at Qualtrics (DevSecOps Security) with 8+ years of experience turning complex infrastructure into reliable, secure platforms. I care most about the moments that matter in production: keeping customer-facing systems within SLA, making incidents easier to diagnose, and closing the gap between “we deployed it” and “we can trust it in prod.”",
+        "Today at <strong>Qualtrics</strong>, I operate multi-region <strong>AWS EKS</strong> and <strong>Nomad</strong> estates—network policy with Cilium, policy enforcement with OPA/Kyverno, GitOps with ArgoCD, and observability with Prometheus, Grafana, and the Elastic Stack. I’ve also driven container supply-chain security: signed images, pipeline scanning, and admission controls so only vetted artifacts reach production.",
+        "Outside the day-to-day runbooks, I build tools that reflect how I actually work on call—and increasingly how I work with agents. That’s how <strong>klew.dev</strong> came to life: a local macOS app for Kubernetes incidents, with <strong>MCP</strong> so coding agents can help investigate using the same cluster context you see in the UI."
+    ],
+    "featuredBuild": {
+        "label": "What I've built",
+        "name": "klew.dev",
+        "url": "https://klew.dev",
+        "tagline": "Kubernetes incident investigation—for you and your agents",
+        "story": "During outages, context is scattered: workloads in one pane, events in another, logs in a third. klew.dev pulls workloads, events, logs, and resource state into a single macOS desktop app so you can follow a failure line-by-line without juggling tabs or sending cluster data to a SaaS backend. It also exposes an MCP server so coding agents can query cluster context and help investigate incidents alongside you—still local-first, with no cluster data shipped to a third-party SaaS.",
+        "highlights": [
+            "Local-first: connects via kubeconfig and the Kubernetes API (client-go); your data stays on your machine.",
+            "MCP integration lets AI agents access investigation tools and cluster context safely on your machine, not through a remote black box.",
+            "Live watches plus periodic snapshots, with Drain3 clustering so repeated log and event patterns surface as one story.",
+            "Built for on-call engineers (and the agents they pair with) when minutes matter."
+        ],
+        "stack": ["Wails v2", "Go", "React", "Vite", "client-go", "Drain3", "MCP"],
+        "badges": ["Open source", "Apache 2.0", "macOS", "MCP for agents"]
+    }
+}
